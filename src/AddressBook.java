@@ -22,6 +22,7 @@ public class AddressBook {
 
     public static void main(String[] args) {
         BuddyInfo buddy = new BuddyInfo("Tom","Carleton","613");
+        BuddyInfo buddy2 = new BuddyInfo("David", "Carleton", "363");
         AddressBook addressBook = new AddressBook();
         addressBook.addBuddy(buddy);
         addressBook.removeBuddy(0);
